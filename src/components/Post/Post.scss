@@ -1,0 +1,22 @@
+.post {
+  width: 800px;
+  padding-top: 50px;
+
+  &__body {
+    text-align: justify;
+    min-height: 100px;
+    padding: 20px;
+  }
+
+  &__title {
+    text-align: center;
+    min-height: 150px;
+  }
+
+  &__control {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+}
